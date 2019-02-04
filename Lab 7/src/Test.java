@@ -1,13 +1,13 @@
 package Lab7;
 
-import Lab7.StringUtils;
+import Lab7.Box2;
 
 public class Test {
 
-	private static StringUtils su = new StringUtils();;
+	private static StringUtils su = new StringUtils();
 
 	public static void main(String[] args) {
-
+/*
 		su.p("Enter A : ");
 		int a = su.inpInt();
 		su.p("Enter B : ");
@@ -17,6 +17,17 @@ public class Test {
 		calc.divide();
 		calc.subtract();
 		calc.multiply();
+	
+		Box b1 = new Box();
+		
+		for (int cnt=1991; cnt <= 1999; cnt ++){
+			b1.printPricesA(cnt);
+			b1.printPricesB(cnt);
+			b1.printPricesC(cnt);
+			su.p("\n");
+		}	
+			*/
+		Box2 b1 = new Box2();
 	}
 
 }
